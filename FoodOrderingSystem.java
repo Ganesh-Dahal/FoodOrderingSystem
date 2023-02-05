@@ -6,12 +6,15 @@ public class FoodOrderingSystem {
         Scanner input = new Scanner(System.in);
         int choice;
         double total = 0;
-
+        System.out.println("------------------------------------------");
+        System.out.println("Welcome to Food Ordering System");
+        System.out.println("------------------------------------------");
         System.out.println("1. Pizza - Rs100");
         System.out.println("2. Burger - Rs150");
         System.out.println("3. Pasta - Rs400");
         System.out.println("4. Salad - Rs200");
         System.out.println("5. Quit");
+        System.out.println("------------------------------------------");
         System.out.print("Enter your choice (1-5): ");
         choice = input.nextInt();
 
@@ -28,6 +31,7 @@ public class FoodOrderingSystem {
             System.out.println("3. Pasta - Rs400");
             System.out.println("4. Salad - Rs200");
             System.out.println("5. Quit");
+            System.out.println("------------------------------------------");
             System.out.print("Enter your choice (1-5): ");
             choice = input.nextInt();
         }
